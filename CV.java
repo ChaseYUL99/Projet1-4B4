@@ -22,7 +22,20 @@ public class CV {
 
 	public static void main( String[] args ) {
 		
+		String[] tabCompsJulien = { "Rigoureux", "Perfectionniste", "Ponctuel" };
 		
+		String[] tabCompsPaul = { "Ponctuel" };
+		
+		System.out.println( "Bienvenue chez Barette!" );
+		
+		CV julien = new CV( "Cardinal", "Julien", "\u00C9tudiant en informatique de gestion", 0, tabCompsJulien,
+				"Savoir comment mieux documenter mes codes." );
+		
+		CV paul = new CV( "Sasu", "Paul", "\u00C9tudiant en informatique de gestion", 0, tabCompsPaul, "R\u00E9ussir" );
+		
+		julien.affiche();
+		
+		paul.affiche();
 		
 	}
 	
