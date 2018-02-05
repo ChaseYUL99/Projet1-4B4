@@ -11,7 +11,12 @@ public class CV {
 	
 	public CV( String nom, String prenom, String formation, int expTrav, String[] comps, String attentes ) {		
 		
-		
+		this.nom = nom;
+		this.prenom = prenom;
+		this.formation = formation;
+		this.expTrav = expTrav;
+		this.comps = comps;
+		this.attentes = attentes;
 		
 	}
 
